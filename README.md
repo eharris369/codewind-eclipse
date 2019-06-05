@@ -4,8 +4,6 @@
 
 ## How to install
 
-Complete the following steps to install Codewind for Eclipse:
-
 1. Download and install the latest [Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/packages/release/) or use an existing installation. The earliest supported version of the Eclipse IDE for Codewind for Eclipse is 4.11.0 (2019-03).
 2. Install [Codewind from the Eclipse Marketplace](https://marketplace.eclipse.org/content/codewind).
 
