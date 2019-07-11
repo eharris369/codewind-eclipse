@@ -230,7 +230,9 @@ public class CodewindApplicationFactory {
 			
 			// Set the context root
 			String contextRoot = null;
-			if (appJso.has(CoreConstants.KEY_CONTEXTROOT)) {
+			if (appJso.has(CoreConstants.KEY_CONTEXT_ROOT)) {
+				contextRoot = appJso.getString(CoreConstants.KEY_CONTEXT_ROOT);
+			} else if (appJso.has(CoreConstants.KEY_CONTEXTROOT)) {
 				contextRoot = appJso.getString(CoreConstants.KEY_CONTEXTROOT);
 			} else if (appJso.has(CoreConstants.KEY_CUSTOM)) {
 				JSONObject custom = appJso.getJSONObject(CoreConstants.KEY_CUSTOM);
